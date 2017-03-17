@@ -1,0 +1,31 @@
+<navbar></navbar>
+<section>
+  <div class="jumbotron text-center agents-page-header">
+    <input class="search-box align-self-center" ng-model="$ctrl.searchText"><button class="search-button align-self-center" ng-click="$ctrl.search()">Search</button>
+  </div>
+  <div class="container">
+    <div class="d-flex flex-wrap">
+    <div ng-repeat="result in $ctrl.results">
+        <div class="row agent-card">
+          <div class="col col-agent-image">
+            <img class="img-circle" src="{{result.ImageUrl}}">
+          </div>
+          <div class="col py-4">
+            <div class="row">
+              <div class="col agent-name">
+                {{result.Name}}
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col agency-name">
+                {{result.SecondaryName}}
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  </div>
+</section>

@@ -19,4 +19,15 @@
     color: $lightTextColor;
     font-size: 1.6rem;
   }
+
+
+
+}
+
+.nav-div-link
+{
+  font-size: larger;
+  font-weight: bold;
+  a { color: gray; }
+  border-left: thin solid gray;
 }
