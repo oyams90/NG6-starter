@@ -3,6 +3,7 @@
 .navbar {
   height: 6.5rem;
   background-color: $primaryColor;
+
   padding: 1rem;
 
   .nav-links,
@@ -31,3 +32,11 @@
   a { color: gray; }
   border-left: thin solid gray;
 }
+
+.nav-bar
+{
+  background-image: linear-gradient(#c6c6c6, #ffffff);
+}
+
+
+
